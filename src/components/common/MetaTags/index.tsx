@@ -1,4 +1,3 @@
-import { IS_PRODUCTION } from '@/config/constants'
 import { ContentSecurityPolicy } from '@/config/securityHeaders'
 import Head from 'next/head'
 
@@ -30,7 +29,8 @@ const MetaTags = (props: Partial<typeof defaultMetaTags>) => {
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
 
-      {!IS_PRODUCTION && <meta name="robots" content="noindex" />}
+      {/* TODO: Conditionally add noindex if not production */}
+      <meta name="robots" content="noindex" />
 
       {/* CSP */}
       <meta httpEquiv="Content-Security-Policy" content={ContentSecurityPolicy} />

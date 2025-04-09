@@ -1,8 +1,17 @@
-import { type ReactElement } from 'react'
+import { useMemo, type ReactElement } from 'react'
 import getComponentByName from '@/lib/getComponentByName'
 import MetaTags from '../MetaTags'
+import DOMPurify from 'isomorphic-dompurify'
+import _cloneDeepWith from 'lodash/cloneDeepWith'
+import { Dispatch, SetStateAction } from 'react'
 
 const SEO_COMPONENT = 'common/MetaTags'
+
+const EditableFields = {
+  title: true,
+  text: true,
+  caption: true,
+}
 
 type ContentItem = {
   component: string
@@ -11,6 +20,19 @@ type ContentItem = {
 type ContentItems = Array<ContentItem>
 
 const NotFoundComponent = () => <div>Component not found</div>
+
+const getSanitizedProps = (props: Partial<ContentItem>): ReactElement => {
+  return _cloneDeepWith(props, (item, key) => {
+    if (typeof item !== 'string' || (key && !(key in EditableFields))) return
+
+    const hasHtml = /[<>]/.test(item)
+    const cleanHtml = useMemo(() => (hasHtml ? DOMPurify.sanitize(item) : item), [hasHtml, item])
+
+    if (!hasHtml) return <>{item}</>
+
+    return <span dangerouslySetInnerHTML={{ __html: cleanHtml }} />
+  })
+}
 
 const PageContent = ({ content }: { content: ContentItems }): ReactElement => {
   const seo = content.find((item) => item.component === SEO_COMPONENT)
@@ -21,10 +43,12 @@ const PageContent = ({ content }: { content: ContentItems }): ReactElement => {
       {seo && <MetaTags {...seo} />}
 
       <div>
-        {/* Render components from the content */}
-        {mainContent.map(({ component, ...contentProps }, index) => {
+        {mainContent.map(({ component, ...rest }, index) => {
           const Component = getComponentByName(component, NotFoundComponent)
-          return <Component {...contentProps} key={index} />
+
+          const sanitizedProps = getSanitizedProps(rest)
+
+          return <Component {...sanitizedProps} key={index} />
         })}
       </div>
     </>

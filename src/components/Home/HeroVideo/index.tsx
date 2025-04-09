@@ -48,6 +48,7 @@ const HeroVideo = ({ title, text }: BaseBlock) => {
             </Typography>
           </Grid>
         </Grid>
+
         <Typography variant="caption" className={css.scroll}>
           Scroll
         </Typography>

@@ -1,13 +1,22 @@
-import type { ComponentType, ReactElement } from 'react'
+import { ComponentType, ReactNode } from 'react'
+import dynamic from 'next/dynamic'
+import type { DynamicOptionsLoadingProps } from 'next/dynamic'
 
-const getComponentByName = (component: string, FallbackComponent: () => ReactElement) => {
-  let Component: ComponentType<any>
+type LoadingComponent = (props: DynamicOptionsLoadingProps) => ReactNode
+
+const getComponentByName = (component: string, FallbackComponent: LoadingComponent): ComponentType => {
+  let Component: ComponentType
+
   try {
-    Component = require(`@/components/${component}`).default
+    const DynamicComponent = dynamic(() => import(`@/components/${component}`), {
+      loading: FallbackComponent,
+    })
+    Component = DynamicComponent
+
     if (Component == null) throw new Error(`Component ${component} is null`)
   } catch (e) {
     console.error(e)
-    Component = FallbackComponent
+    Component = FallbackComponent as ComponentType
   }
 
   return Component

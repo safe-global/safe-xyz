@@ -1,0 +1,47 @@
+.container,
+.containerMedium,
+.containerShort {
+  margin-top: 150px;
+}
+
+.containerTiny {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.hideMobile {
+  display: none;
+}
+
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .hideMobile {
+    display: block;
+  }
+
+  .container {
+    margin-top: 300px;
+  }
+
+  .containerMedium {
+    margin-top: 250px;
+  }
+
+  .containerShort {
+    margin-top: 200px;
+  }
+
+  .containerTiny {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .centeredContent {
+    justify-content: center;
+    align-items: center;
+  }
+}

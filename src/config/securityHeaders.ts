@@ -1,5 +1,3 @@
-import { IS_PRODUCTION } from '@/config/constants'
-
 /**
  * Notes:
  * connect-src: Allows calls to Ashby's job board, Ecosystem DB API, Snapshot, Contentful and Hotjar.
@@ -10,9 +8,7 @@ import { IS_PRODUCTION } from '@/config/constants'
 export const ContentSecurityPolicy = `
  default-src 'self';
  connect-src 'self' https://*.google-analytics.com https://api.ashbyhq.com/posting-api/job-board/safe.global/ https://ecosystem-database.safe.global/data.json https://ecosystem-database.staging.5afe.dev/data.json https://hub.snapshot.org/graphql https://cdn.contentful.com/spaces/1i5gc724wjeu/ https://metrics.hotjar.io/ https://content.hotjar.io/ wss://ws.hotjar.com https://api.pushwoosh.com/;
- script-src 'self' ${
-   IS_PRODUCTION ? '' : "'unsafe-eval'"
- } 'unsafe-inline' https://script.hotjar.com https://static.hotjar.com https://www.googletagmanager.com https://platform.twitter.com;
+ script-src 'self' 'unsafe-eval' 'unsafe-inline' https://script.hotjar.com https://static.hotjar.com https://www.googletagmanager.com https://platform.twitter.com;
  style-src 'self' 'unsafe-inline';
  font-src 'self';
  object-src 'none';
