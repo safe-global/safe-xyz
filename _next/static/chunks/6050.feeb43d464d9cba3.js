@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6050],{6050:e=>{e.exports={wrapper:"styles_wrapper__jVPAA",icon:"styles_icon__M3H3D",name:"styles_name__vrqLS",newBadge:"styles_newBadge__Llgi4"}}}]);

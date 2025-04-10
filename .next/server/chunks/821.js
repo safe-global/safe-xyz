@@ -1,0 +1,1 @@
+exports.id=821,exports.ids=[821],exports.modules={5821:s=>{s.exports={card:"styles_card__YdIMR",icon:"styles_icon__TKFS2",video:"styles_video__UvfZ5",tag:"styles_tag___HqyI"}}};

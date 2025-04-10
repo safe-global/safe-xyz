@@ -1,0 +1,1 @@
+exports.id=385,exports.ids=[385],exports.modules={1385:r=>{r.exports={digit:"Ticker_digit__FI6r0",char:"Ticker_char__NHJ8q",run:"Ticker_run__xvOR1",wrapper:"Ticker_wrapper__MC4NM",value:"Ticker_value__PQbhf",scale:"Ticker_scale__B7kTz"}}};

@@ -1,0 +1,1 @@
+exports.id=607,exports.ids=[607],exports.modules={7607:e=>{e.exports={footerWrapper:"styles_footerWrapper__Yxqg9",container:"styles_container__rB_95",bg:"styles_bg__jdBPe",gradient:"styles_gradient__z0obB",gradientHorizontal:"styles_gradientHorizontal__FDxke"}}};

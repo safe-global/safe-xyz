@@ -1,0 +1,1 @@
+exports.id=905,exports.ids=[905],exports.modules={2905:e=>{e.exports={wrapper:"styles_wrapper__jVPAA",icon:"styles_icon__M3H3D",name:"styles_name__vrqLS",newBadge:"styles_newBadge__Llgi4"}}};
