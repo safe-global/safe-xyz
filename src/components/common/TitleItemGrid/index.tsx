@@ -17,7 +17,7 @@ export const GridItem = ({
 }: Partial<BaseBlock> & { width: GridSize }): ReactElement => (
   <Grid size={{ xs: 12, md: width }} className={css.gridItems}>
     <div>
-      {image ? <img {...image} /> : null}
+      {image ? <img {...image} alt={image.alt} /> : null}
 
       <Typography variant="caption" mt={2} color="text.primary" component="div">
         {caption}

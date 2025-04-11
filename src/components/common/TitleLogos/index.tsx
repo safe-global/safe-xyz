@@ -13,12 +13,12 @@ const LogoImage = ({ image, link }: { image?: BaseBlock['image']; link?: BaseBlo
   if (link?.href) {
     return (
       <Link href={link.href} passHref target="_blank" rel="noreferrer">
-        <img {...imgProps} />
+        <img {...imgProps} alt={image?.alt} />
       </Link>
     )
   }
 
-  return <img {...imgProps} />
+  return <img {...imgProps} alt={image?.alt} />
 }
 
 const TitleLogos = ({ title, items, hideMobile }: BaseBlock & { hideMobile?: boolean }): ReactElement => (

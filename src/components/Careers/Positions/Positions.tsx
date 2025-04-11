@@ -25,7 +25,7 @@ const parsePosition = ({ jobUrl, location, title }: Position): CardProps => {
   }
 }
 
-export const Positions = ({ items: _items, ...rest }: ComponentProps<typeof Cards>): ReactElement => {
+export const Positions = ({ items: _, ...rest }: ComponentProps<typeof Cards>): ReactElement => {
   const { data: positions = [] } = useOpenPositions()
 
   const items = useMemo(() => {

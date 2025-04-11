@@ -15,7 +15,7 @@ const Intro = ({ title, buttons, image }: BaseBlock) => (
 
       <Grid size={{ md: 5 }} className={css.imageContainer}>
         <div className={css.imageWrapper}>
-          <img {...image} />
+          <img {...image} alt={image?.alt} />
         </div>
       </Grid>
     </Grid>
