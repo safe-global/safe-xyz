@@ -20,6 +20,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^7.0.1",
     "@safe-global/safe-gateway-typescript-sdk": "^3.22.9",
+    "framer-motion": "^12.6.5",
     "isomorphic-dompurify": "^2.23.0",
     "lodash": "^4.17.21",
     "next": "15.2.4",
