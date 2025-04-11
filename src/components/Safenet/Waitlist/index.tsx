@@ -26,10 +26,6 @@ const Waitlist = () => (
         <IconButton href={SAFENET_TELEGRAM_LINK} target="_blank" rel="noreferrer">
           <TelegramGradient />
         </IconButton>
-
-        <a href={SAFENET_WAITING_LIST_LINK} target="_blank" rel="noreferrer">
-          <LinkButton>Join Waitlist</LinkButton>
-        </a>
       </div>
     </Container>
   </div>

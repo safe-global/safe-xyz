@@ -42,10 +42,6 @@ const Hero = () => (
         >
           Get updates
         </Button>
-
-        <a href={SAFENET_WAITING_LIST_LINK} target="_blank" rel="noreferrer">
-          <LinkButton>Join Waitlist</LinkButton>
-        </a>
       </div>
 
       <div className={css.scroll} />
