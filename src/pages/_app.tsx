@@ -7,7 +7,7 @@ import PageLayout from '@/components/common/PageLayout'
 import { theme } from '@/styles/theme'
 import '@/styles/globals.css'
 
-export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
+export type NextPageWithLayout<P = Record<string, unknown>, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode
 }
 

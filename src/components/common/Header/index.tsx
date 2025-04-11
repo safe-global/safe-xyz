@@ -36,7 +36,7 @@ const Header = ({ customClass, AlternativeLogo }: { customClass?: string; Altern
   return (
     <div className={`${css.header} ${isBurgerOpen ? css.visible : ''} ${customClass || ''}`}>
       <NextLink href={AppRoutes.index}>
-        <div className={css.logo}>{!!AlternativeLogo ? <AlternativeLogo /> : <Logo />}</div>
+        <div className={css.logo}>{AlternativeLogo ? <AlternativeLogo /> : <Logo />}</div>
       </NextLink>
 
       <ButtonBase className={css.burger} onClick={toggleMobileNavigation} aria-label="Toggle navigation" disableRipple>

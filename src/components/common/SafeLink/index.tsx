@@ -1,5 +1,5 @@
 // import SearchParamsContext from '@/contexts/SearchParamsContext'
-import { type ReactNode, useContext, useMemo } from 'react'
+import { type ReactNode } from 'react'
 import Link from 'next/link'
 // import { appendSearchParamsToURL } from '@/lib/appendSearchParamsToURL'
 import css from './styles.module.css'

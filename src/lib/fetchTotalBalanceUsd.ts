@@ -1,4 +1,4 @@
-const QUERY_ID_TOTAL_ASSETS_BY_CHAIN = 3609251
+// const QUERY_ID_TOTAL_ASSETS_BY_CHAIN = 3609251
 
 export const fetchTotalBalanceUsd = async (): Promise<number | null> => {
   // TODO: Uncomment this code after agreeing with the narrative team on the data source

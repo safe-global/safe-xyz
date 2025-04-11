@@ -1,7 +1,7 @@
+import { Typography } from '@mui/material'
 import LinkButton from '@/components/common/LinkButton'
 import ArrowIcon from '@/public/images/arrow-out-square-corner.svg'
-import { type BaseBlock } from '@/components/Home/types'
-import { Typography } from '@mui/material'
+import { type BaseBlock } from '@/types/common'
 import css from './styles.module.css'
 
 const LinkCard = ({ caption, title, text, link }: Partial<BaseBlock>) => (

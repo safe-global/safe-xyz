@@ -3,7 +3,6 @@ import getComponentByName from '@/lib/getComponentByName'
 import MetaTags from '../MetaTags'
 import DOMPurify from 'isomorphic-dompurify'
 import _cloneDeepWith from 'lodash/cloneDeepWith'
-import { Dispatch, SetStateAction } from 'react'
 
 const SEO_COMPONENT = 'common/MetaTags'
 
@@ -15,7 +14,7 @@ const EditableFields = {
 
 type ContentItem = {
   component: string
-} & any
+} & Record<string, unknown>
 
 type ContentItems = Array<ContentItem>
 
@@ -38,9 +37,12 @@ const PageContent = ({ content }: { content: ContentItems }): ReactElement => {
   const seo = content.find((item) => item.component === SEO_COMPONENT)
   const mainContent = content.filter((item) => item.component !== SEO_COMPONENT)
 
+  // Extract SEO props without the component property
+  const { component: _, ...seoProps } = seo || { component: '' }
+
   return (
     <>
-      {seo && <MetaTags {...seo} />}
+      {seo && <MetaTags {...seoProps} />}
 
       <div>
         {mainContent.map(({ component, ...rest }, index) => {
