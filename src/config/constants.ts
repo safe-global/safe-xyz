@@ -17,6 +17,10 @@ export const TWITTER_LINK = 'https://x.com/safe'
 export const YOUTUBE_LINK = 'https://www.youtube.com/@safe'
 export const SAFE_NETWORK_SUPPORT = 'https://docs.safe.global/core-api/safe-infrastructure-deployment'
 
+export const DOCS_SDK = 'https://docs.safe.global/sdk/overview'
+export const DOCS_INFRASTRUCTURE = 'https://docs.safe.global/core-api/api-overview'
+export const DOCS_SMART_CONTRACTS = 'https://docs.safe.global/advanced/smart-account-overview'
+
 // Mobile apps
 export const IOS_LINK = 'https://apps.apple.com/app/id1515759131'
 export const GPLAY_LINK = 'https://play.google.com/store/apps/details?id=io.gnosis.safe'
