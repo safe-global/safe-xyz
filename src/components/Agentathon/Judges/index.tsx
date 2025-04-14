@@ -25,7 +25,7 @@ const Judges = ({ caption, title, items }: BaseBlock) => (
           <ArrowIcon className={css.arrowIcon} />
 
           <div className={css.foreground}>
-            <img src="/images/Agentathon/judge-card-shadow.png" className={css.foregroundImage} alt="foreground" />
+            <img src="../images/Agentathon/judge-card-shadow.png" className={css.foregroundImage} alt="foreground" />
           </div>
 
           {item.image?.src && <img src={item.image.src} className={css.itemImage} alt={item.image.alt} />}

@@ -15,7 +15,7 @@
 }
 
 .upperArc {
-  background-image: url('/images/Safenet/CrossChain/upper-arc.png');
+  background-image: url('../../../../public/images/Safenet/CrossChain/upper-arc.png');
   background-position: center;
   background-repeat: no-repeat;
   overflow: auto;
@@ -149,7 +149,7 @@
   .blocksWrapper {
     display: block;
     margin-top: 180px;
-    background-image: url('/images/Safenet/CrossChain/blocks.png');
+    background-image: url('../../../../public/images/Safenet/CrossChain/blocks.png');
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1170px;

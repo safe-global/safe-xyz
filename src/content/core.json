@@ -24,22 +24,22 @@
   {
     "title": "Trusted by the Best",
     "icons": [
-      { "name": "Fluidkey", "src": "/images/projectsLogos/fluidkey.png" },
-      { "name": "Nest", "src": "/images/projectsLogos/nest.png" },
-      { "name": "Zeal", "src": "/images/projectsLogos/zeal.png" },
-      { "name": "Gnosis Pay", "src": "/images/projectsLogos/gnosis-pay.png" },
-      { "name": "BasedApp", "src": "/images/projectsLogos/basedapp.svg" },
-      { "name": "Polymarket", "src": "/images/projectsLogos/polymarket.png" },
-      { "name": "Sygnum", "src": "/images/projectsLogos/sygnum.png" },
-      { "name": "Worldcoin", "src": "/images/projectsLogos/worldcoin.png" },
-      { "name": "Circles UBI", "src": "/images/projectsLogos/circles.png" },
-      { "name": "Coinshift", "src": "/images/projectsLogos/coinshift.png" },
-      { "name": "Den", "src": "/images/projectsLogos/den.png" },
-      { "name": "Cobo", "src": "/images/projectsLogos/cobo.png" },
-      { "name": "Brahma", "src": "/images/projectsLogos/brahma.png" },
-      { "name": "DefiSaver", "src": "/images/projectsLogos/defi-saver.svg" },
-      { "name": "Olas", "src": "/images/projectsLogos/olas.png" },
-      { "name": "Drakula", "src": "/images/projectsLogos/drakula.png" }
+      { "name": "Fluidkey", "src": "../images/projectsLogos/fluidkey.png" },
+      { "name": "Nest", "src": "../images/projectsLogos/nest.png" },
+      { "name": "Zeal", "src": "../images/projectsLogos/zeal.png" },
+      { "name": "Gnosis Pay", "src": "../images/projectsLogos/gnosis-pay.png" },
+      { "name": "BasedApp", "src": "../images/projectsLogos/basedapp.svg" },
+      { "name": "Polymarket", "src": "../images/projectsLogos/polymarket.png" },
+      { "name": "Sygnum", "src": "../images/projectsLogos/sygnum.png" },
+      { "name": "Worldcoin", "src": "../images/projectsLogos/worldcoin.png" },
+      { "name": "Circles UBI", "src": "../images/projectsLogos/circles.png" },
+      { "name": "Coinshift", "src": "../images/projectsLogos/coinshift.png" },
+      { "name": "Den", "src": "../images/projectsLogos/den.png" },
+      { "name": "Cobo", "src": "../images/projectsLogos/cobo.png" },
+      { "name": "Brahma", "src": "../images/projectsLogos/brahma.png" },
+      { "name": "DefiSaver", "src": "../images/projectsLogos/defi-saver.svg" },
+      { "name": "Olas", "src": "../images/projectsLogos/olas.png" },
+      { "name": "Drakula", "src": "../images/projectsLogos/drakula.png" }
     ],
     "component": "Core/TrustedBy"
   },
@@ -50,42 +50,42 @@
     "items": [
       {
         "image": {
-          "src": "/images/Core/target-gradient.svg",
+          "src": "../images/Core/target-gradient.svg",
           "alt": "Target with arrow"
         },
         "title": "Product and commercial expertise"
       },
       {
         "image": {
-          "src": "/images/Core/headset-gradient.svg",
+          "src": "../images/Core/headset-gradient.svg",
           "alt": "Headset"
         },
         "title": "Support during development phase"
       },
       {
         "image": {
-          "src": "/images/Core/coin-gradient.svg",
+          "src": "../images/Core/coin-gradient.svg",
           "alt": "Coin"
         },
         "title": "Built-in monetisation opportunities"
       },
       {
         "image": {
-          "src": "/images/Core/users-gradient.svg",
+          "src": "../images/Core/users-gradient.svg",
           "alt": "Users"
         },
         "title": "Collaboration on new features"
       },
       {
         "image": {
-          "src": "/images/Core/antenna-gradient.svg",
+          "src": "../images/Core/antenna-gradient.svg",
           "alt": "Antenna"
         },
         "title": "Co-marketing of product and partnership"
       },
       {
         "image": {
-          "src": "/images/Core/speech-bubble-gradient.svg",
+          "src": "../images/Core/speech-bubble-gradient.svg",
           "alt": "Talk"
         },
         "title": "Access to the invite only Safe Builders Telegram"

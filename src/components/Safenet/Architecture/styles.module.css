@@ -15,7 +15,7 @@
 }
 
 .arc {
-  background-image: url('/images/Safenet/Architecture/arc-sm.png');
+  background-image: url('../../../../public/images/Safenet/Architecture/arc-sm.png');
   background-position: center;
   background-repeat: no-repeat;
   overflow: auto;

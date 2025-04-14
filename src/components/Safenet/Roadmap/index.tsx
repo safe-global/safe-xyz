@@ -29,7 +29,7 @@ const Roadmap = () => (
       <GradientChip caption="Roadmap" />
 
       <Typography className={css.title}>
-        <img src="/images/Safenet/roadmap-hook.png" alt="Adornment" className={css.hook} />
+        <img src="../images/Safenet/roadmap-hook.png" alt="Adornment" className={css.hook} />
         Safenet
         <br /> is coming <span className={css.titleGradient}>2025</span>
       </Typography>

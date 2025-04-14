@@ -1,5 +1,5 @@
 .wrapper {
-  background-image: url('/images/Core/RadialAnimation/Planets/orbits.svg');
+  background-image: url('../../../../../public/images/Core/RadialAnimation/Planets/orbits.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 228px;

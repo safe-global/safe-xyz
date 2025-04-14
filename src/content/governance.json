@@ -20,7 +20,7 @@
       }
     ],
     "image": {
-      "src": "/images/Governance/particles-globe-spin.gif",
+      "src": "../images/Governance/particles-globe-spin.gif",
       "alt": "spinning particles globe"
     }
   },
@@ -71,7 +71,7 @@
     "items": [
       {
         "image": {
-          "src": "/images/Governance/shield-check-gradient.svg",
+          "src": "../images/Governance/shield-check-gradient.svg",
           "alt": "checked shield",
           "width": "50px"
         },
@@ -84,7 +84,7 @@
       },
       {
         "image": {
-          "src": "/images/Governance/tokens-gradient.svg",
+          "src": "../images/Governance/tokens-gradient.svg",
           "alt": "stacked tokens",
           "width": "50px"
         },
@@ -97,7 +97,7 @@
       },
       {
         "image": {
-          "src": "/images/Governance/external-link-gradient.svg",
+          "src": "../images/Governance/external-link-gradient.svg",
           "alt": "external link",
           "width": "50px"
         },
@@ -110,7 +110,7 @@
       },
       {
         "image": {
-          "src": "/images/Governance/teach-gradient.svg",
+          "src": "../images/Governance/teach-gradient.svg",
           "alt": "teacher pointing at board",
           "width": "50px"
         },
@@ -123,7 +123,7 @@
       },
       {
         "image": {
-          "src": "/images/Governance/building-gradient.svg",
+          "src": "../images/Governance/building-gradient.svg",
           "alt": "building",
           "width": "50px"
         },
@@ -136,7 +136,7 @@
       },
       {
         "image": {
-          "src": "/images/Governance/shield-check-gradient.svg",
+          "src": "../images/Governance/shield-check-gradient.svg",
           "alt": "checked shield",
           "width": "50px"
         },
@@ -161,7 +161,7 @@
         "title": "Vibrant ecosystem",
         "text": "To foster a vibrant Safe ecosystem built on shared components and standards",
         "image": {
-          "src": "/images/Governance/ecosystem-avatars.png",
+          "src": "../images/Governance/ecosystem-avatars.png",
           "alt": "Ecosystem avatars"
         },
         "link": {
@@ -203,7 +203,7 @@
           "href": "https://x.com/safe"
         },
         "image": {
-          "src": "/images/x-icon.svg",
+          "src": "../images/x-icon.svg",
           "alt": "X page"
         }
       },
@@ -212,7 +212,7 @@
           "href": "https://forum.safe.global"
         },
         "image": {
-          "src": "/images/discourse-icon.svg",
+          "src": "../images/discourse-icon.svg",
           "alt": "Discourse forum"
         }
       },
@@ -221,7 +221,7 @@
           "href": "https://chat.safe.global"
         },
         "image": {
-          "src": "/images/discord-icon.svg",
+          "src": "../images/discord-icon.svg",
           "alt": "Discord server"
         }
       },
@@ -230,7 +230,7 @@
           "href": "https://www.youtube.com/@safeglobal"
         },
         "image": {
-          "src": "/images/youtube-icon.svg",
+          "src": "../images/youtube-icon.svg",
           "alt": "Youtube channel"
         }
       },
@@ -239,7 +239,7 @@
           "href": "https://github.com/safe-global"
         },
         "image": {
-          "src": "/images/github-icon.svg",
+          "src": "../images/github-icon.svg",
           "alt": "GitHub organization"
         }
       }
@@ -259,7 +259,7 @@
       }
     ],
     "image": {
-      "src": "/images/banner-lines.svg",
+      "src": "../images/banner-lines.svg",
       "alt": "Safe round block lines"
     }
   }

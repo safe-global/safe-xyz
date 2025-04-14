@@ -10,9 +10,9 @@ const SafenetPage: NextPageWithLayout = () => {
       <Safenet />
       <Head>
         {/* Favicons */}
-        <link rel="shortcut icon" href="/images/Safenet/favicons/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/Safenet/favicons/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/Safenet/favicons/favicon-16x16.png" />
+        <link rel="shortcut icon" href="../images/Safenet/favicons/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../images/Safenet/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../images/Safenet/favicons/favicon-16x16.png" />
       </Head>
     </>
   )

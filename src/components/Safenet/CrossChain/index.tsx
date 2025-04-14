@@ -9,7 +9,7 @@ import css from './styles.module.css'
 const items: BaseBlock['items'] = [
   {
     image: {
-      src: '/images/Safenet/CrossChain/arrows.png',
+      src: '../images/Safenet/CrossChain/arrows.png',
       alt: 'Forward arrows',
     },
     title: (
@@ -24,7 +24,7 @@ const items: BaseBlock['items'] = [
   },
   {
     image: {
-      src: '/images/Safenet/CrossChain/padlock.png',
+      src: '../images/Safenet/CrossChain/padlock.png',
       alt: 'Verified padlock',
     },
     title: (
@@ -38,7 +38,7 @@ const items: BaseBlock['items'] = [
   },
   {
     image: {
-      src: '/images/Safenet/CrossChain/blobs.png',
+      src: '../images/Safenet/CrossChain/blobs.png',
       alt: 'Unified blobs',
     },
     title: (

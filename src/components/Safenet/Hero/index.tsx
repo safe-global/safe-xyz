@@ -9,9 +9,9 @@ const Hero = () => (
     <div className={`${css.backgroundArc} ${css.lowerArc}`} />
 
     <Container className={css.container}>
-      <video autoPlay muted playsInline loop className={css.video} poster="./images/Safenet/globe-poster.png">
-        <source src="./videos/Safenet/Globe.mp4" type="video/mp4" />
-        <img src="./images/Safenet/globe-poster.png" alt="Safenet globe" />
+      <video autoPlay muted playsInline loop className={css.video} poster="../images/Safenet/globe-poster.png">
+        <source src="../videos/Safenet/Globe.mp4" type="video/mp4" />
+        <img src="../images/Safenet/globe-poster.png" alt="Safenet globe" />
       </video>
 
       <div className={css.contentWrapper}>

@@ -16,7 +16,7 @@ const userSteps: Array<{ step: number; text: string; icon?: { src: string; alt: 
     step: 2,
     text: 'Gets liquidity',
     icon: {
-      src: '/images/Safenet/Architecture/arrow-back-gradient.svg',
+      src: '../images/Safenet/Architecture/arrow-back-gradient.svg',
       alt: 'Arrow back gradient',
     },
   },
@@ -24,7 +24,7 @@ const userSteps: Array<{ step: number; text: string; icon?: { src: string; alt: 
     step: 3,
     text: 'Executes transaction intent',
     icon: {
-      src: '/images/Safenet/Architecture/check-gradient.svg',
+      src: '../images/Safenet/Architecture/check-gradient.svg',
       alt: 'Checkmark gradient',
     },
   },
@@ -36,7 +36,7 @@ const userSteps: Array<{ step: number; text: string; icon?: { src: string; alt: 
     step: 5,
     text: 'Returns liquidity',
     icon: {
-      src: '/images/Safenet/Architecture/arrow-next-gradient.svg',
+      src: '../images/Safenet/Architecture/arrow-next-gradient.svg',
       alt: 'Arrow next gradient',
     },
   },
@@ -44,7 +44,7 @@ const userSteps: Array<{ step: number; text: string; icon?: { src: string; alt: 
 
 const ProcessorFeatures = () => (
   <>
-    <img src="/images/Safenet/Architecture/processor.png" alt="Safe processor" className={css.blockImage} />
+    <img src="../images/Safenet/Architecture/processor.png" alt="Safe processor" className={css.blockImage} />
     <Typography className={css.blockTitle}>Processors</Typography>
     <ul>
       <li>Connect to user accounts and orchestrate optimal execution of transaction intents.</li>
@@ -58,7 +58,7 @@ const ProcessorFeatures = () => (
 
 const MidItemHeader = () => (
   <div className={css.midItemHeader}>
-    <img src="/images/Safenet/Architecture/border-union.png" alt="Block border" className={css.border} />
+    <img src="../images/Safenet/Architecture/border-union.png" alt="Block border" className={css.border} />
 
     <Typography className={css.midItemTitle}>USER</Typography>
     <Typography className={css.midItemText}>Initiates transaction intent</Typography>
@@ -67,7 +67,7 @@ const MidItemHeader = () => (
 
 const NetworkFeatures = () => (
   <>
-    <img src="/images/Safenet/Architecture/mesh.png" alt="Safe net" className={css.blockImage} />
+    <img src="../images/Safenet/Architecture/mesh.png" alt="Safe net" className={css.blockImage} />
 
     <Typography className={css.blockTitle}>Liquid Network</Typography>
 
@@ -87,7 +87,7 @@ const NetworkFeatures = () => (
 )
 
 const GradientStep = ({ stepNumber }: { stepNumber: number }) => {
-  return <img src={`/images/Safenet/Architecture/step-${stepNumber}.svg`} alt={`Step ${stepNumber}`} />
+  return <img src={`../images/Safenet/Architecture/step-${stepNumber}.svg`} alt={`Step ${stepNumber}`} />
 }
 
 const STEPS_NUMBER = 3
@@ -131,7 +131,7 @@ const Architecture = () => {
                 {userSteps.map(({ step, text, icon }) => (
                   <Grid size={{ md: 12 }} className={css.step} key={text}>
                     <img
-                      src="/images/Safenet/Architecture/step-highlight-gradient.png"
+                      src="../images/Safenet/Architecture/step-highlight-gradient.png"
                       alt="Step gradient highlight"
                       className={css.highlight}
                     />
@@ -171,7 +171,7 @@ const Architecture = () => {
         </div>
 
         <Grid container justifyContent="space-between" className={css.gridContainer}>
-          <img src="/images/Safenet/Architecture/shapes-md.png" alt="Block shapes" className={css.shapes} />
+          <img src="../images/Safenet/Architecture/shapes-md.png" alt="Block shapes" className={css.shapes} />
 
           <Grid size={{ md: 4 }} className={css.blockItem}>
             <ProcessorFeatures />
@@ -184,7 +184,7 @@ const Architecture = () => {
               {userSteps.map(({ step, text, icon }) => (
                 <Grid size={{ md: 12 }} className={css.step} key={text}>
                   <img
-                    src="/images/Safenet/Architecture/step-highlight-gradient.png"
+                    src="../images/Safenet/Architecture/step-highlight-gradient.png"
                     alt="Step gradient highlight"
                     className={css.highlight}
                   />

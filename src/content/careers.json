@@ -47,7 +47,7 @@
     "items": [
       {
         "image": {
-          "src": "/images/logo.svg",
+          "src": "../images/logo.svg",
           "alt": "Safe logo"
         },
         "title": "A Call to Build Smarter Self-Custody",
@@ -58,7 +58,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/yahoo-finance.svg",
+          "src": "../images/Careers/yahoo-finance.svg",
           "alt": "Yahoo Finance logo"
         },
         "title": "Gnosis Safe rebrands to Safe, Raises $100M",
@@ -69,7 +69,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/decrypt.svg",
+          "src": "../images/Careers/decrypt.svg",
           "alt": "Decrypt logo"
         },
         "title": "Gnosis Safe launches SafeDAO and Safe Token",
@@ -88,7 +88,7 @@
     "items": [
       {
         "image": {
-          "src": "/images/Careers/Benefits/book-open.png",
+          "src": "../images/Careers/Benefits/book-open.png",
           "alt": "Open book",
           "width": "50px"
         },
@@ -97,7 +97,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/human-handsup.png",
+          "src": "../images/Careers/Benefits/human-handsup.png",
           "alt": "Human with their hands up",
           "width": "50px"
         },
@@ -106,7 +106,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/coffee.png",
+          "src": "../images/Careers/Benefits/coffee.png",
           "alt": "Coffee mug",
           "width": "50px"
         },
@@ -115,7 +115,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/calendar.png",
+          "src": "../images/Careers/Benefits/calendar.png",
           "alt": "Calendar",
           "width": "50px"
         },
@@ -124,7 +124,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/more-horizontal.png",
+          "src": "../images/Careers/Benefits/more-horizontal.png",
           "alt": "Three horizontal dots",
           "width": "50px"
         },
@@ -133,7 +133,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/device-laptop.png",
+          "src": "../images/Careers/Benefits/device-laptop.png",
           "alt": "Laptop",
           "width": "50px"
         },
@@ -142,7 +142,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/gift.png",
+          "src": "../images/Careers/Benefits/gift.png",
           "alt": "Wrapped gift",
           "width": "50px"
         },
@@ -151,7 +151,7 @@
       },
       {
         "image": {
-          "src": "/images/Careers/Benefits/map.png",
+          "src": "../images/Careers/Benefits/map.png",
           "alt": "Map",
           "width": "50px"
         },

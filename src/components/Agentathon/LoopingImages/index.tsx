@@ -141,19 +141,19 @@ const LoopingImages = ({ items }: Partial<BaseBlock>) => {
       </div>
 
       <motion.img
-        src="/images/Agentathon/possibilities/bracket-left.png"
+        src="../images/Agentathon/possibilities/bracket-left.png"
         initial={{ rotate: -45, scale: 0, opacity: 0 }}
         ref={scopeLeftBracket}
         className={css.bracketLeft}
       />
       <motion.img
-        src="/images/Agentathon/possibilities/bracket-right.png"
+        src="../images/Agentathon/possibilities/bracket-right.png"
         initial={{ rotate: 45, scale: 0, opacity: 0 }}
         ref={scopeRightBracket}
         className={css.bracketRight}
       />
 
-      <img src="/images/Agentathon/possibilities/glow.png" alt="glow" className={css.glowImage} />
+      <img src="../images/Agentathon/possibilities/glow.png" alt="glow" className={css.glowImage} />
 
       <motion.div ref={scope} className={css.imagesContainer} style={{ gap: IMAGE_GAP }}>
         {currentItems.map((item, i) => (

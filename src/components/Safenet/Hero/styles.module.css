@@ -32,7 +32,7 @@
 }
 
 .lowerArc {
-  background-image: url('/images/Safenet/lower-arc.png');
+  background-image: url('../../../../public/images/Safenet/lower-arc.png');
   background-position: center;
 
   bottom: -372px;
@@ -93,7 +93,7 @@
 .scroll::after {
   content: '';
   display: block;
-  background-image: url('/images/Safenet/double-arrow-down-gradient.svg');
+  background-image: url('../../../../public/images/Safenet/double-arrow-down-gradient.svg');
   background-repeat: repeat;
   background-position: center;
   width: 26px;
@@ -111,7 +111,7 @@
   }
 
   .upperArc {
-    background-image: url('/images/Safenet/upper-arc.png');
+    background-image: url('../../../../public/images/Safenet/upper-arc.png');
     background-position: center top 173px;
   }
 

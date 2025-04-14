@@ -65,7 +65,7 @@ const Values = () => (
 
       <div className={css.blocksStack}>
         <div className={css.stack} />
-        <img src="/images/Safenet/Values/processor.png" alt="Processor image" className={css.processor} />
+        <img src="../images/Safenet/Values/processor.png" alt="Processor image" className={css.processor} />
 
         {items.map((item, index) => (
           <BlockItem {...item} key={index} />
@@ -73,9 +73,9 @@ const Values = () => (
       </div>
 
       <div className={css.blocksWrapper}>
-        <img src="/images/Safenet/Values/blocks.png" alt="Blocks background" className={css.blocks} />
-        <img src="/images/Safenet/Values/processor.png" alt="Processor image" className={css.processor} />
-        <img src="/images/Safenet/Values/cross.png" alt="Cross image" className={css.cross} />
+        <img src="../images/Safenet/Values/blocks.png" alt="Blocks background" className={css.blocks} />
+        <img src="../images/Safenet/Values/processor.png" alt="Processor image" className={css.processor} />
+        <img src="../images/Safenet/Values/cross.png" alt="Cross image" className={css.cross} />
 
         <Grid container className={css.blocksContainer}>
           {items.map((item, index) => (
