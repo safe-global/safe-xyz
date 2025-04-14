@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1447],{21447:(e,a,n)=>{n.r(a),n.d(a,{default:()=>i});var t=n(37876),s=n(51835);let i=()=>(0,t.jsx)(s.default,{pageTitle:"Safenet",description:"Instant Cross-chain Transactions. Execution Guarantees. On any network.",image:"/images/Safenet/meta-image-safenet.png"})}}]);
