@@ -9,7 +9,7 @@ const Hero = ({ caption, title, text, buttons }: BaseBlock) => (
 
     <div className={css.videoWrapper}>
       <video autoPlay muted playsInline loop className={css.video}>
-        <source src="/videos/Agentathon/hero.mp4" type="video/mp4" />
+        <source src="./videos/Agentathon/hero.mp4" type="video/mp4" />
       </video>
     </div>
 

@@ -1,5 +1,5 @@
 .bg {
-  background-image: url('/images/unlock-bg.svg');
+  background-image: url('../../../../public/images/unlock-bg.svg');
   background-position: center top 250px;
   background-repeat: no-repeat;
   overflow: hidden;

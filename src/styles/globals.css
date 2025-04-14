@@ -16,21 +16,21 @@
   font-family: 'Citerne';
   font-display: swap;
   font-weight: 300;
-  src: url('/fonts/Citerne-Light.woff') format('woff');
+  src: url('../../public/fonts/Citerne-Light.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Citerne';
   font-display: swap;
   font-weight: 400;
-  src: url('/fonts/Citerne-Regular.woff2') format('woff2');
+  src: url('../../public/fonts/Citerne-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Citerne';
   font-display: swap;
   font-weight: 500;
-  src: url('/fonts/Citerne-Medium.woff2') format('woff2');
+  src: url('../../public/fonts/Citerne-Medium.woff2') format('woff2');
 }
 
 @font-face {
@@ -38,7 +38,7 @@
   font-display: swap;
   font-weight: 400;
   font-style: italic;
-  src: url('/fonts/Citerne-Italic.woff2') format('woff2');
+  src: url('../../public/fonts/Citerne-Italic.woff2') format('woff2');
 }
 
 html,
@@ -117,11 +117,11 @@ u:after {
 }
 
 u:before {
-  mask-image: url('/images/left-brace.svg');
+  mask-image: url('../../public/images/left-brace.svg');
 }
 
 u:after {
-  mask-image: url('/images/right-brace.svg');
+  mask-image: url('../../public/images/right-brace.svg');
 }
 
 details summary {

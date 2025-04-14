@@ -5,7 +5,7 @@ import css from './styles.module.css'
 
 const SecurityElement = ({ image }: { image: BaseBlock['image'] }) => (
   <div className={css.imageWrapper}>
-    <img src="/images/Home/security-bg.png" alt="Lines background" className={css.bgImage} />
+    <img src="./images/Home/security-bg.png" alt="Lines background" className={css.bgImage} />
     {image ? <img src={image.src} alt={image.alt} className={css.image} /> : null}
 
     <div className={css.list}>

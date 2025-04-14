@@ -2,7 +2,7 @@
   {
     "pageTitle": "Ethereum Smart Accounts",
     "description": "Own the Internet. Ethereum Smart Accounts to safeguard your digital assets and build the future of ownership.",
-    "image": "/images/Home/meta-image-homepage.jpg",
+    "image": "./images/Home/meta-image-homepage.jpg",
     "component": "common/MetaTags"
   },
   {
@@ -56,13 +56,13 @@
     "component": "common/TitleSlidingIcons",
     "title": "Trusted by the best",
     "icons": [
-      { "name": "1inch", "src": "/images/Home/TrustedIcons/1inch.svg" },
-      { "name": "Aave", "src": "/images/aave.svg" },
-      { "name": "Balancer", "src": "/images/Home/TrustedIcons/balancer.svg" },
-      { "name": "Chainlink", "src": "/images/Home/TrustedIcons/chainlink.svg" },
-      { "name": "Ethereum Name Service", "src": "/images/Home/TrustedIcons/ethereum-name-service.svg" },
-      { "name": "Maker DAO", "src": "/images/Home/TrustedIcons/maker-dao.svg" },
-      { "name": "Polygon", "src": "/images/Home/TrustedIcons/polygon.svg" }
+      { "name": "1inch", "src": "./images/Home/TrustedIcons/1inch.svg" },
+      { "name": "Aave", "src": "./images/aave.svg" },
+      { "name": "Balancer", "src": "./images/Home/TrustedIcons/balancer.svg" },
+      { "name": "Chainlink", "src": "./images/Home/TrustedIcons/chainlink.svg" },
+      { "name": "Ethereum Name Service", "src": "./images/Home/TrustedIcons/ethereum-name-service.svg" },
+      { "name": "Maker DAO", "src": "./images/Home/TrustedIcons/maker-dao.svg" },
+      { "name": "Polygon", "src": "./images/Home/TrustedIcons/polygon.svg" }
     ]
   },
   {
@@ -71,15 +71,15 @@
     "text": "including testnets",
     "reverse": true,
     "icons": [
-      { "name": "Scroll", "src": "/images/chainsLogos/ScrollLogo.svg" },
-      { "name": "Polygon zkEVM", "src": "/images/chainsLogos/PolygonZkEVMLogo.png" },
-      { "name": "Celo", "src": "/images/chainsLogos/CeloLogo.png" },
-      { "name": "Optimism", "src": "/images/chainsLogos/OptimismLogo.png" },
-      { "name": "Base", "src": "/images/chainsLogos/BaseLogo.png" },
-      { "name": "Arbitrum", "src": "/images/chainsLogos/ArbitrumLogo.png" },
-      { "name": "ZkSync Era Mainnet", "src": "/images/chainsLogos/ZkSyncEraLogo.png" },
-      { "name": "Avalanche", "src": "/images/chainsLogos/AvalancheLogo.png" },
-      { "name": "Gnosis Chain", "src": "/images/chainsLogos/GnosisChainLogo.png" }
+      { "name": "Scroll", "src": "./images/chainsLogos/ScrollLogo.svg" },
+      { "name": "Polygon zkEVM", "src": "./images/chainsLogos/PolygonZkEVMLogo.png" },
+      { "name": "Celo", "src": "./images/chainsLogos/CeloLogo.png" },
+      { "name": "Optimism", "src": "./images/chainsLogos/OptimismLogo.png" },
+      { "name": "Base", "src": "./images/chainsLogos/BaseLogo.png" },
+      { "name": "Arbitrum", "src": "./images/chainsLogos/ArbitrumLogo.png" },
+      { "name": "ZkSync Era Mainnet", "src": "./images/chainsLogos/ZkSyncEraLogo.png" },
+      { "name": "Avalanche", "src": "./images/chainsLogos/AvalancheLogo.png" },
+      { "name": "Gnosis Chain", "src": "./images/chainsLogos/GnosisChainLogo.png" }
     ]
   },
   {
@@ -91,8 +91,8 @@
         "text": "Safe <u>WALLET</u>",
         "video": {
           "sources": [
-            { "src": "/videos/Home/safe-lock-hevc.mov", "type": "video/quicktime; codecs=hvc1" },
-            { "src": "/videos/Home/safe-lock-vp9.webm", "type": "video/webm" }
+            { "src": "./videos/Home/safe-lock-hevc.mov", "type": "video/quicktime; codecs=hvc1" },
+            { "src": "./videos/Home/safe-lock-vp9.webm", "type": "video/webm" }
           ]
         },
         "link": {
@@ -106,8 +106,8 @@
         "text": "Safe <u>CORE</u>",
         "video": {
           "sources": [
-            { "src": "/videos/Home/safe-code-hevc.mov", "type": "video/quicktime; codecs=hvc1" },
-            { "src": "/videos/Home/safe-code-vp9.webm", "type": "video/webm" }
+            { "src": "./videos/Home/safe-code-hevc.mov", "type": "video/quicktime; codecs=hvc1" },
+            { "src": "./videos/Home/safe-code-vp9.webm", "type": "video/webm" }
           ]
         },
         "link": {
@@ -162,25 +162,25 @@
     "items": [
       {
         "image": {
-          "src": "/images/Home/Security/certora-logo.png",
+          "src": "./images/Home/Security/certora-logo.png",
           "alt": "Certora"
         }
       },
       {
         "image": {
-          "src": "/images/Home/Security/runtime-verification-logo.png",
+          "src": "./images/Home/Security/runtime-verification-logo.png",
           "alt": "Runtime Verification"
         }
       },
       {
         "image": {
-          "src": "/images/Home/Security/openzeppelin-logo.png",
+          "src": "./images/Home/Security/openzeppelin-logo.png",
           "alt": "Open Zeppelin"
         }
       },
       {
         "image": {
-          "src": "/images/Home/Security/ackee-logo.png",
+          "src": "./images/Home/Security/ackee-logo.png",
           "alt": "Ackee"
         }
       }
@@ -198,7 +198,7 @@
       }
     ],
     "image": {
-      "src": "/images/Home/safe-shield.png",
+      "src": "./images/Home/safe-shield.png",
       "alt": "Safe Smart Account shield"
     },
     "mobileVariant": "image-text"
@@ -217,7 +217,7 @@
       }
     ],
     "image": {
-      "src": "/images/Home/ecosystem-partners.png",
+      "src": "./images/Home/ecosystem-partners.png",
       "alt": "Ecosystem partners cards"
     },
     "mobileVariant": "text-image"
@@ -239,7 +239,7 @@
         "href": "https://safe.global/blog/the-safe-case-ai-smart-accounts-crypto"
       },
       "image": {
-        "src": "/images/Home/UseCases/ai-big-icon.svg",
+        "src": "./images/Home/UseCases/ai-big-icon.svg",
         "alt": "Integrated chip icon"
       }
     },
@@ -250,7 +250,7 @@
           "href": "https://safe.global/blog/the-safe-case-staking-and-restaking"
         },
         "image": {
-          "src": "/images/Home/UseCases/restaking-big-icon.svg",
+          "src": "./images/Home/UseCases/restaking-big-icon.svg",
           "alt": "Diamond icon"
         }
       },
@@ -260,7 +260,7 @@
           "href": "https://safe.global/blog/safe-case-2-digital-ownership-in-your-pocket"
         },
         "image": {
-          "src": "/images/Home/UseCases/payments-big-icon.svg",
+          "src": "./images/Home/UseCases/payments-big-icon.svg",
           "alt": "Wallet icon"
         }
       },
@@ -270,7 +270,7 @@
           "href": "https://safe.global/blog/the-safe-case-infrastructure-for-institutional-crypto-self-custody"
         },
         "image": {
-          "src": "/images/Home/UseCases/institutions-big-icon.svg",
+          "src": "./images/Home/UseCases/institutions-big-icon.svg",
           "alt": "Institutions icon"
         }
       },
@@ -280,7 +280,7 @@
           "href": "https://safe.global/blog/safe-case-decentralized-social-id"
         },
         "image": {
-          "src": "/images/Home/UseCases/social-big-icon.svg",
+          "src": "./images/Home/UseCases/social-big-icon.svg",
           "alt": "Social icon"
         }
       }

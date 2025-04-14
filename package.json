@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "gh-deploy": "GITHUB_PAGES=true next build",
+    "deploy": "yarn gh-deploy && touch out/.nojekyll && gh-pages -d out --dotfiles",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
@@ -41,6 +43,7 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-unused-imports": "^4.1.4",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.5.3",
     "typescript": "^5"
   }

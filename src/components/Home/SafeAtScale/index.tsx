@@ -37,15 +37,15 @@ const SafeAtScale = ({ caption, title, items }: BaseBlock) => {
                 <div className={css.brackets}>
                   <div className={css.left}>
                     <video autoPlay muted playsInline loop className={css.video}>
-                      <source src="/videos/Home/brackets-left-hevc.mov" type="video/quicktime; codecs=hvc1" />
-                      <source src="/videos/Home/brackets-left-vp9.webm" type="video/webm" />
+                      <source src="./videos/Home/brackets-left-hevc.mov" type="video/quicktime; codecs=hvc1" />
+                      <source src="./videos/Home/brackets-left-vp9.webm" type="video/webm" />
                     </video>
                   </div>
                   <div className={css.metricsSpacer}></div>
                   <div className={css.right}>
                     <video autoPlay muted playsInline loop className={css.video}>
-                      <source src="/videos/Home/brackets-right-hevc.mov" type="video/quicktime; codecs=hvc1" />
-                      <source src="/videos/Home/brackets-right-vp9.webm" type="video/webm" />
+                      <source src="./videos/Home/brackets-right-hevc.mov" type="video/quicktime; codecs=hvc1" />
+                      <source src="./videos/Home/brackets-right-vp9.webm" type="video/webm" />
                     </video>
                   </div>
                 </div>

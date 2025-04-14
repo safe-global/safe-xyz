@@ -87,7 +87,7 @@
 .scroll::after {
   content: '';
   display: block;
-  background-image: url('/images/angle-down.svg');
+  background-image: url('../../../../public/images/angle-down.svg');
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
@@ -111,8 +111,8 @@
 
   .title {
     font-size: 2.5em;
-  }  
-  
+  }
+
   .content {
     margin-top: 0;
   }

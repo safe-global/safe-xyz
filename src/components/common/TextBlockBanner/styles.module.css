@@ -6,7 +6,7 @@
 }
 
 .bg {
-  background-image: url('/images/devices.png');
+  background-image: url('../../../../public/images/devices.png');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: contain;

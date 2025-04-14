@@ -1,5 +1,8 @@
 import type { NextConfig } from 'next'
 
+const isGithubPages = process.env.GITHUB_PAGES === 'true'
+const repoName = 'safe-xyz'
+
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
@@ -45,6 +48,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: isGithubPages ? `/${repoName}` : '',
+  assetPrefix: isGithubPages ? `/${repoName}/` : '',
   trailingSlash: true,
 }
 

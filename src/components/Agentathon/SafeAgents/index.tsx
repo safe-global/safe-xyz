@@ -6,7 +6,7 @@ const SafeAgents = ({ image, buttons }: BaseBlock) => (
   <section className={css.sectionContainer}>
     <div className={css.videoWrapper}>
       <video autoPlay muted playsInline loop className={css.video}>
-        <source src="/videos/Agentathon/agents.mp4" type="video/mp4" />
+        <source src="./videos/Agentathon/agents.mp4" type="video/mp4" />
       </video>
 
       {image && <img src={image.src} alt={image.alt} className={css.image} />}

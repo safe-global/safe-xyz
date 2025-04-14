@@ -33,8 +33,8 @@ const HeroVideo = ({ title, text }: BaseBlock) => {
             style={{ opacity: 0 }}
             className={`${css.video} ${ready ? css.ready : ''}`}
           >
-            <source src="/videos/Home/safe-2024-hero-vp9.webm" type="video/webm" />
-            <source src="/videos/Home/safe-2024-hero-hevc.mov" type="video/quicktime; codecs=hvc1" />
+            <source src="./videos/Home/safe-2024-hero-vp9.webm" type="video/webm" />
+            <source src="./videos/Home/safe-2024-hero-hevc.mov" type="video/quicktime; codecs=hvc1" />
           </video>
         </div>
 
