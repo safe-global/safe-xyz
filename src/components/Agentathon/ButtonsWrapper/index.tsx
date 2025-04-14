@@ -1,7 +1,7 @@
 import { Button } from '@mui/material'
 import css from './style.module.css'
 import SafeLink from '@/components/common/SafeLink'
-import type { Button as ButtonType } from '@/components/Home/types'
+import type { Button as ButtonType } from '@/types/common'
 import ArrowIcon from '@/public/images/arrow-out-square-corner.svg'
 
 type ButtonsWrapperProps = {

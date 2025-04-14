@@ -1,8 +1,7 @@
 import { Container, IconButton, Typography } from '@mui/material'
-import LinkButton from '@/components/common/LinkButton'
 import XGradient from '@/public/images/Safenet/x-gradient.svg'
 import TelegramGradient from '@/public/images/Safenet/telegram-gradient.svg'
-import { SAFENET_TELEGRAM_LINK, SAFENET_WAITING_LIST_LINK, TWITTER_LINK } from '@/config/constants'
+import { SAFENET_TELEGRAM_LINK, TWITTER_LINK } from '@/config/constants'
 import css from './styles.module.css'
 
 const Waitlist = () => (

@@ -1,6 +1,5 @@
 import { Button, Container, Typography } from '@mui/material'
-import LinkButton from '@/components/common/LinkButton'
-import { SAFENET_TELEGRAM_LINK, SAFENET_WAITING_LIST_LINK } from '@/config/constants'
+import { SAFENET_TELEGRAM_LINK } from '@/config/constants'
 import SafenetLogoGradient from '@/public/images/Safenet/Safenet-logo-gradient.svg'
 import css from './styles.module.css'
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { motion, useAnimate, useInView } from 'framer-motion'
 import css from './style.module.css'
-import type { BaseBlock } from '@/components/Home/types'
+import type { BaseBlock } from '@/types/common'
 import { useIsMediumScreen } from '@/hooks/useMaxWidth'
 import { Typography } from '@mui/material'
 
@@ -21,8 +21,8 @@ const LoopingImages = ({ items }: Partial<BaseBlock>) => {
   const IMAGE_GAP = isMobile ? 60 : 100
   const MAX_WIDTH = isMobile ? 710 : 1300
 
-  const animationTimeoutRef = useRef<NodeJS.Timeout>()
-  const sleepTimeoutRef = useRef<NodeJS.Timeout>()
+  const animationTimeoutRef = useRef<NodeJS.Timeout>(null)
+  const sleepTimeoutRef = useRef<NodeJS.Timeout>(null)
 
   const sleep = (ms: number) => {
     return new Promise<void>((resolve) => {
@@ -161,7 +161,7 @@ const LoopingImages = ({ items }: Partial<BaseBlock>) => {
             key={item.image?.src}
             layout
             src={item.image?.src}
-            alt={item.title}
+            alt={typeof item.title === 'string' ? item.title : ''}
             className={css.image}
             style={{
               width: IMAGE_WIDTH,
