@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9377],{99377:e=>{e.exports={parallaxWrapper:"styles_parallaxWrapper__CMk1T",baseImage:"styles_baseImage__lIOTx",card:"styles_card__1YfEc",proposals:"styles_proposals__68iU_",delegates:"styles_delegates__vpuaD",delegators:"styles_delegators__H59zt",value:"styles_value__bOibw",caption:"styles_caption__WQtiR"}}}]);

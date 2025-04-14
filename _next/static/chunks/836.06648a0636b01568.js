@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[836],{836:e=>{e.exports={container:"styles_container__OFmZK",text:"styles_text__m2Aen"}}}]);

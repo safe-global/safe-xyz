@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5364],{5364:p=>{p.exports={proposalRow:"styles_proposalRow___Kal0",proposalChip:"styles_proposalChip__d0KFQ"}}}]);

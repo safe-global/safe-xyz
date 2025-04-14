@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1477],{1477:e=>{e.exports={wrapper:"styles_wrapper__wqSMg",card:"styles_card__vNW_K",titleWrapper:"styles_titleWrapper__SnLin"}}}]);

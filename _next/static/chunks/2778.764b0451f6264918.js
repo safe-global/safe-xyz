@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2778],{72778:t=>{t.exports={sectionContainer:"style_sectionContainer__PfZfZ",title:"style_title__8Bx_9",prizeAmount:"style_prizeAmount__0n_ON",buttonsWrapper:"style_buttonsWrapper__thtIf",dots:"style_dots__t9Muk"}}}]);

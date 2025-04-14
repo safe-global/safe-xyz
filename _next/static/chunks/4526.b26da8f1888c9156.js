@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4526],{52145:_=>{_.exports={chip:"styles_chip__dUBub",caption:"styles_caption__l8g9P",uppercase:"styles_uppercase__cfkay"}}}]);
