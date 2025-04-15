@@ -1,0 +1,25 @@
+.container {
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  user-select: none;
+  height: auto;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .bg {
+    width: auto;
+  }
+}

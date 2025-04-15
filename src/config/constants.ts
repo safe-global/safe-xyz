@@ -1,4 +1,4 @@
-// export const IS_PRODUCTION = process.env.NEXT_PUBLIC_IS_PRODUCTION
+export const IS_PRODUCTION = process.env.NEXT_PUBLIC_IS_PRODUCTION
 
 export const DUNE_API_KEY = process.env.DUNE_API_KEY || ''
 
@@ -27,3 +27,8 @@ export const DOCS_SAFENET = 'https://docs.safe.global/safenet/overview'
 // Mobile apps
 export const IOS_LINK = 'https://apps.apple.com/app/id1515759131'
 export const GPLAY_LINK = 'https://play.google.com/store/apps/details?id=io.gnosis.safe'
+
+// Ecosystem data
+export const ECOSYSTEM_DATA_URL = IS_PRODUCTION
+  ? 'https://ecosystem-database.safe.global'
+  : 'https://ecosystem-database.staging.5afe.dev'
